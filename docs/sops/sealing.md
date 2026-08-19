@@ -28,7 +28,7 @@ The volatilization of material during growth cannot be completely mitigated by t
 
 1. Clean the top and bottom sealing surfaces using IPA/EtOH and a Kimwipe until the Kimwipe appears free of any residue.
 
-1. Use an air duster to blow off the Kimwipe fibers off the sealing surface.
+1. Use an air duster to blow off the Kimwipe fibers off the sealing surface. This is particularly necessary for sealing at higher pressures (>5000 psi).
 
 1. Gently place Destec sealing rings on the top face of the chamber and the top face of the lower translator.
 
@@ -40,16 +40,13 @@ The volatilization of material during growth cannot be completely mitigated by t
 
     ![](../img/collar.jpg){width="300"}
 
-1. Mount the seed rod holder using the bottom set screw.
+1. Mount the seed rod holder using the bottom set screw. If necessary, align the seed rod before moving on to the next step (see "Standard Operating Procedures )
 
 1. **Lower shroud**: The lower shroud piece can be distinguished from the upper shroud piece because it has a ***sloped interior groove*** near the bottom end that mates with the top lip of the shroud cup. It is also slightly shorter than the upper shroud. Carefully place the lower shroud over the seed rod and down into the adapter to mate with the shroud cup. (It may be necessary to lower the seed rod in order to get the shroud over it.) 
     ![](../img/lowershroud.jpg){width="300"}
 1. There is a hole on the face of the shroud which should align with the gas outlet port on the chamber. Rotate the shroud until the hole is aligned.
 
-1. **Cylindrical glass window**: The cylindrical glass window for LOKII is simply a glass tube that has been diced to the correct height. There is no anti-reflective coating and thus the windows are relatively inexpensive. These windows get damaged over time, especially when in contact with hot volatile material. 
-
-    !!! danger
-        There is a window specifically for LAPIS which is anti-reflection coated at 820 nm - **do not use this one with LOKII!** This AR-coated window has a visible coloration on the surface of the glass and is typically kept in a separate container. These are very expensive windows due to the cost of the coating (~>$1,000), so be very careful with them.
+1. **Cylindrical glass window**: The cylindrical glass window is simply a glass tube that has been diced to the correct height. There is no anti-reflective coating and thus the windows are relatively inexpensive. These windows get damaged over time, especially when in contact with hot volatile material. 
 
 1. Carefully slide the lower translator housing upward until the inconel adapter is flush with the bottom face of the chamber.
 
@@ -68,6 +65,8 @@ The volatilization of material during growth cannot be completely mitigated by t
     Satisfactory alignment is more loosely defined for the feed rod than it is for the seed rod. Some precession is allowable, as the surface tension of the molten zone will keep the feed rod centered after joining the rods during growth.
 
     (Satisfactory alignment image)
+
+1. Before sealing the clamp, move the feed and seed rod away from the center, since the clamping action will bring them closer together. We want to avoid the feed and seed colliding when tightening the clamps.
 
 ## Sealing the Destec Clamps
 

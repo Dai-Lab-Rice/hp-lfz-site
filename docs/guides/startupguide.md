@@ -132,13 +132,17 @@
 
 1. Open the inlet ball valve, but leave the inlet needle valve closed.
 
+1. Ensure that the vent valve on the compressor is closed.
+
 1. Open the gas bottle.
 
-1. Open the valves which either (a) pass through the mass flow controller or (b) bypass the mass flow controller.
+1. Starting at the gas bottle, sequentially open the valves which either (a) pass through the mass flow controller or (b) bypass the mass flow controller.
 
-1. Allow the chamber to reach the bottle pressure (usually around 1,000 psi), or the desired pressure, whichever is lower.
+1. Slowly crack open the inlet needle valve to allow a very small amount of flow. Too much flow will cause the feed rod move around, potentially hitting the wall and cracking.
 
-1. If the desired pressure is higher than the bottle pressure, turn on the compressor by opening the valve to the drive air and slowly increase the drive air pressure (using the regulator attached to the compressor) until the desired pressure is reached. Operate the compressor at a slow rate, such as 2 strokes / second.
+1. Close the outlet needle valve. Allow the chamber to reach the bottle pressure (usually around 1,000 psi), or the desired pressure, whichever is lower.
+
+1. If the desired pressure is higher than the bottle pressure, turn on the compressor by reducing the drive air pressure to zero (using the regulator attached to the compressor) and then opening the valve to the drive air and slowly increase the drive air pressure until the desired pressure is reached. Operate the compressor at a slow rate, such as 2 strokes / second.
 
 1. Set the final pressure by using the high-pressure regulator downstream of the compressor. Also, ensure the compressor does not reach a pressure significantly higher than this by controlling either the drive air pressure (using the drive air regulator) or by controlling the pressure limit switch of the compressor.
 
@@ -152,8 +156,6 @@
 **Otherwise, if using gas flow**, leave chamber inlet valves open and the compressor on, and refer to the following steps:
 
 1. Set the high-pressure regulator downstream of the compressor to your desired pressure.
-
-1.
 
 1. Close the inlet needle valve.
 
@@ -172,11 +174,13 @@
 
 1. Focus and align the camera and pyrometer on the seed rod. ([more info]())
 
+1. Ensure all the lasers, especially the out-of-plane lasers (1 and 4), are aligned correctly. **This is critical and needs to be done EVERY time!** It is perhaps actually done more easily at lower pressures, since at higher pressures the rods do not heat up as easily.
+
 1. Place the notch filter in front of the pyrometer. ([more info]())
 
 1. Slide a neutral density filter in front of the camera, if desired. ([more info]())
 
-1. Place the laser safety sign on the outside of the door.
+1. Turn on the "LASER IN USE" warning sign.
 
 1. Close the laser curtains.
 
