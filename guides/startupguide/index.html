@@ -8,21 +8,20 @@
     <title>Startup Guide - High-Pressure Laser Floating Zone Lab</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
         var mkdocs_page_name = "Startup Guide";
-        var mkdocs_page_input_path = "guides\\startupguide.md";
+        var mkdocs_page_input_path = "guides/startupguide.md";
         var mkdocs_page_url = null;
       </script>
     
-    <script src="../../js/jquery-3.6.0.min.js" defer></script>
     <!--[if lt IE 9]>
       <script src="../../js/html5shiv.min.js"></script>
     <![endif]-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-      <script>hljs.initHighlightingOnLoad();</script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -46,7 +45,7 @@
               </ul>
               <p class="caption"><span class="caption-text">Guides</span></p>
               <ul class="current">
-                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Startup Guide</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Startup Guide</a>
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#section-i-turning-on-equipment">Section I: Turning on equipment</a>
     </li>
@@ -54,7 +53,7 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#section-iii-pressurizing-the-chamber">Section III: Pressurizing the chamber</a>
         <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#if-using-ar-or-n_2">If using Ar  or N\(_2\)</a>
+    <li class="toctree-l3"><a class="reference internal" href="#if-using-ar-or-n_2">If using Ar or N\(_2\)</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#if-using-8020-aro_2">If using 80:20 Ar:O\(_2\)</a>
     </li>
@@ -174,9 +173,9 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
-          <li>Guides &raquo;</li>
-      <li>Startup Guide</li>
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Guides</li>
+      <li class="breadcrumb-item active">Startup Guide</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -295,11 +294,17 @@
 <p>Close all low-pressure valves, including the mass flow controller (using FlowPlot software, set flowrate to <code>0.0</code>). (<a href="">more info</a>)</p>
 </li>
 <li>
-<p>Open the gas bottle in room 3232 (gowning room).</p>
+<p>Ensure the inlet and outlet valves of the chamber are open.</p>
 </li>
 <li>
-<p>Open valves downstream of the gas bottle, up to the vent valve.
+<p>Open the gas bottle.</p>
+</li>
+<li>
+<p>First open the vent valve immediately downstream of the getter.
    <img alt="vent.png" src="vent.png" /></p>
+</li>
+<li>
+<p>Starting from the gas bottle, sequentially open the valves which bypass the getter.</p>
 </li>
 <li>
 <p>Using the FlowPlot software, flow gas to vent valve at the flowrate specified below, in order to flush out any oxygen in the low pressure piping. Flow for 5 minutes. (<a href="">more info</a>)</p>
@@ -309,49 +314,52 @@
 </ul>
 </li>
 <li>
-<p>Open valves upstream of the getter.</p>
+<p>Open the valves immediately upstream of the getter, and close those bypassing the getter.</p>
 </li>
 <li>
-<p>Open valves downstream of the getter to vent valve. Be cautious as the getter may be pressurized as much as 1,000 psi.</p>
+<p>Open the round inlet valve of the getter.</p>
 </li>
 <li>
-<p>Open all valves downstream of the vent valve to the chamber outlet.</p>
+<p>SLOWLY crack open the round outlet valve of the getter. The getter may hold a high pressure from previous use.</p>
 </li>
 <li>
-<p>Close the vent valve, and the gas should begin flowing into the chamber and out of the chamber outlet piping.</p>
+<p>Once the pressure in the getter has decreased, and the flow is less violent, close the vent valve. Gas should begin flowing towards the compressor / chamber.</p>
+</li>
+<li>
+<p>Ensure the vent valve of the compressor is closed.</p>
 </li>
 <li>
 <p>Turn on the compressor at a very slow rate in order to flush out any residual oxygen. (<a href="">more info</a>)</p>
 </li>
 <li>
-<p>Close the chamber outlet valves and the chamber will begin pressurizing. Pressurize up to 200 psi, then close the chamber inlet needle valve.</p>
+<p>Close the chamber outlet needle valve and the chamber will begin pressurizing. Pressurize up to 200 psi, then close the chamber inlet needle valve, leaving the ball valve open.</p>
 </li>
 <li>
-<p>Purge the chamber by opening the outlet ball valve followed by carefully opening the outlet needle valve. Let the pressure drop to just above zero, but do not allow the pressure to reach exactly zero.</p>
+<p>Purge the chamber by slowly opening the outlet needle valve. Let the pressure drop to just above zero, but do not allow the pressure to reach exactly zero, because air may backflow into the chamber.</p>
 </li>
 <li>
-<p>Close the chamber outlet valves once again, and carefully open the chamber inlet needle valve.</p>
+<p>Close the chamber outlet needle valve once again, and carefully open the chamber inlet needle valve.</p>
 </li>
 <li>
-<p>Repeat these steps (pressurize to 200 psi and purge) at least 3 times.</p>
+<p>Repeat these steps (pressurize to 200 psi and purge) at least 5 times.</p>
 </li>
 <li>
-<p>Open the chamber outlet valves and continue to allow gas to flow through the chamber and out of the outlet for these next few steps.</p>
+<p>(Optional) To sinter / dry the feed rod, turn on the laser emission and raise the power until the rod begins to glow, without melting it. Translate the rod through the laser beam to remove any residual moisture. It is recommended to perform another purge cycle on the chamber after this procedure.</p>
 </li>
 <li>
-<p>Next, dry the feed rod. To do so, turn on the laser emission, and raise the power until the rod begins to glow, without melting it. Translate the rod relatively fast (upwards of 100 mm/hr) through the laser beam to remove any residual moisture. (<a href="">more info</a>)</p>
+<p>Bring the feed and seed rods to their starting positions.</p>
 </li>
 <li>
-<p>Turn off the laser emission.</p>
+<p>Close the chamber outlet needle valve and ball valve, and the chamber will begin pressurizing. Allow the chamber to reach the bottle pressure (usually around 1,000 psi), or the desired pressure, whichever is lower.</p>
 </li>
 <li>
-<p>Bring the feed and seed rods back to their starting positions.</p>
+<p>If the desired pressure is higher than the bottle pressure, turn on the compressor by opening the valve to the drive air and slowly increase the drive air pressure (using the regulator attached to the compressor) until the desired pressure is reached. Operate the compressor at a slow rate, such as 2 strokes / second.</p>
 </li>
 <li>
-<p>Close the chamber outlet valves, and the chamber will begin pressurizing. Allow the chamber to reach the bottle pressure (usually around 1,200 psi), or the desired pressure, whichever is lower.</p>
+<p>Set the final pressure by using the high-pressure regulator downstream of the compressor. Also, ensure the compressor does not reach a pressure significantly higher than this by controlling either the drive air pressure (using the drive air regulator) or by controlling the pressure limit switch of the compressor.</p>
 </li>
 <li>
-<p>If the desired pressure is higher than the bottle pressure, turn on the compressor until the desired pressure is reached. (<a href="">more info</a>)</p>
+<p>Optionally close the inlet or outlet valves, depending on whether or not you want to have a constant inlet to maintain pressure or if you want constant venting (gas flow).</p>
 </li>
 </ol>
 <h3 id="if-using-8020-aro_2">If using 80:20 Ar:O<span class="arithmatex">\(_2\)</span></h3>
@@ -360,35 +368,45 @@
 <p>Close all low-pressure valves, including the mass flow controller (using FlowPlot software, set flowrate to <code>0.0</code>). (<a href="">more info</a>)</p>
 </li>
 <li>
-<p>Open the gas bottle in room 3232 (gowning room).</p>
+<p>Ensure the outlet valves of the chamber are open.</p>
 </li>
 <li>
-<p>Open all valves downstream of the gas bottle, up to the mass flow controller.</p>
+<p>Open the inlet ball valve, but leave the inlet needle valve closed.</p>
 </li>
 <li>
-<p>Open all valves downstream of the mass flow controller to the chamber outlet.</p>
+<p>Ensure that the vent valve on the compressor is closed.</p>
 </li>
 <li>
-<p>Using the FlowPlot software, set gas flowrate to desired value. Gas should begin flowing into the chamber and out of the chamber outlet piping.</p>
+<p>Open the gas bottle.</p>
 </li>
 <li>
-<p>Close the chamber outlet valves and the chamber will begin pressurizing.</p>
+<p>Starting at the gas bottle, sequentially open the valves which either (a) pass through the mass flow controller or (b) bypass the mass flow controller.</p>
 </li>
 <li>
-<p>Allow the chamber to reach the bottle pressure (usually around 1,200 psi), or the desired pressure, whichever is lower.</p>
+<p>Slowly crack open the inlet needle valve to allow a very small amount of flow. Too much flow will cause the feed rod move around, potentially hitting the wall and cracking.</p>
 </li>
 <li>
-<p>If the desired pressure is higher than the bottle pressure, turn on the compressor until the desired pressure is reached. (<a href="">more info</a>)</p>
+<p>Close the outlet needle valve. Allow the chamber to reach the bottle pressure (usually around 1,000 psi), or the desired pressure, whichever is lower.</p>
+</li>
+<li>
+<p>If the desired pressure is higher than the bottle pressure, turn on the compressor by reducing the drive air pressure to zero (using the regulator attached to the compressor) and then opening the valve to the drive air and slowly increase the drive air pressure until the desired pressure is reached. Operate the compressor at a slow rate, such as 2 strokes / second.</p>
+</li>
+<li>
+<p>Set the final pressure by using the high-pressure regulator downstream of the compressor. Also, ensure the compressor does not reach a pressure significantly higher than this by controlling either the drive air pressure (using the drive air regulator) or by controlling the pressure limit switch of the compressor.</p>
+</li>
+<li>
+<p>Optionally close the inlet or outlet valves, depending on whether or not you want to have a constant inlet to maintain pressure or if you want constant venting (gas flow).</p>
 </li>
 </ol>
 <hr />
 <h2 id="section-iv-setup-static-gas-pressure-or-gas-flow">Section IV: Setup static gas pressure or gas flow</h2>
-<p><strong>If using static pressure</strong>, close chamber inlet valves and move on to the next section.</p>
-<p><strong>Otherwise, if using gas flow</strong>, leave chamber inlet valves open and refer to the following steps:</p>
+<p><strong>If using static pressure</strong>, close chamber inlet valves, turn off the compressor (if applicable), and move on to the next section.</p>
+<p><strong>Otherwise, if using gas flow</strong>, leave chamber inlet valves open and the compressor on, and refer to the following steps:</p>
 <ol>
-<li>
-<p>Turn on the compressor and set it to a slow rate. Loosen the pressure limiter just until the limit is reached (a whistle-like noise should sound).</p>
-</li>
+<li>Set the high-pressure regulator downstream of the compressor to your desired pressure.</li>
+</ol>
+<p>1.</p>
+<ol>
 <li>
 <p>Close the inlet needle valve.</p>
 </li>
@@ -415,13 +433,16 @@
 <p>Focus and align the camera and pyrometer on the seed rod. (<a href="">more info</a>)</p>
 </li>
 <li>
+<p>Ensure all the lasers, especially the out-of-plane lasers (1 and 4), are aligned correctly. <strong>This is critical and needs to be done EVERY time!</strong> It is perhaps actually done more easily at lower pressures, since at higher pressures the rods do not heat up as easily.</p>
+</li>
+<li>
 <p>Place the notch filter in front of the pyrometer. (<a href="">more info</a>)</p>
 </li>
 <li>
 <p>Slide a neutral density filter in front of the camera, if desired. (<a href="">more info</a>)</p>
 </li>
 <li>
-<p>Place the laser safety sign on the outside of the door.</p>
+<p>Turn on the "LASER IN USE" warning sign.</p>
 </li>
 <li>
 <p>Close the laser curtains.</p>
@@ -477,17 +498,18 @@
     
   </span>
 </div>
-    <script>var base_url = '../..';</script>
-    <script src="../../js/theme_extra.js" defer></script>
-    <script src="../../js/theme.js" defer></script>
-      <script src="../../javascripts/mathjax.js" defer></script>
-      <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
-      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
-      <script src="../../search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../javascripts/mathjax.js"></script>
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);
-        };
+        });
     </script>
 
 </body>
