@@ -79,71 +79,81 @@
 
 1. Close all low-pressure valves, including the mass flow controller (using FlowPlot software, set flowrate to `0.0`). ([more info]())
 
-1. Open the gas bottle in room 3232 (gowning room).
+1. Ensure the inlet and outlet valves of the chamber are open.
 
-1. Open valves downstream of the gas bottle, up to the vent valve.
+1. Open the gas bottle.
+
+1. First open the vent valve immediately downstream of the getter.
    ![vent.png](vent.png)
+
+1. Starting from the gas bottle, sequentially open the valves which bypass the getter.
 
 1. Using the FlowPlot software, flow gas to vent valve at the flowrate specified below, in order to flush out any oxygen in the low pressure piping. Flow for 5 minutes. ([more info]())
       - **Ar**: Setpoint = 50% (Flowrate = 5 SLPM)
       - **N$_2$**: Setpoint = 65% (Flowrate = 5 SLPM)
 
-1. Open valves upstream of the getter.
+1. Open the valves immediately upstream of the getter, and close those bypassing the getter.
 
-1. Open valves downstream of the getter to vent valve. Be cautious as the getter may be pressurized as much as 1,000 psi.
+1. Open the round inlet valve of the getter.
 
-1. Open all valves downstream of the vent valve to the chamber outlet.
+1. SLOWLY crack open the round outlet valve of the getter. The getter may hold a high pressure from previous use.
 
-1. Close the vent valve, and the gas should begin flowing into the chamber and out of the chamber outlet piping.
+1. Once the pressure in the getter has decreased, and the flow is less violent, close the vent valve. Gas should begin flowing towards the compressor / chamber.
+
+1. Ensure the vent valve of the compressor is closed.
 
 1. Turn on the compressor at a very slow rate in order to flush out any residual oxygen. ([more info]())
 
-1. Close the chamber outlet valves and the chamber will begin pressurizing. Pressurize up to 200 psi, then close the chamber inlet needle valve.
+1. Close the chamber outlet needle valve and the chamber will begin pressurizing. Pressurize up to 200 psi, then close the chamber inlet needle valve, leaving the ball valve open.
 
-1. Purge the chamber by opening the outlet ball valve followed by carefully opening the outlet needle valve. Let the pressure drop to just above zero, but do not allow the pressure to reach exactly zero.
+1. Purge the chamber by slowly opening the outlet needle valve. Let the pressure drop to just above zero, but do not allow the pressure to reach exactly zero, because air may backflow into the chamber.
 
-1. Close the chamber outlet valves once again, and carefully open the chamber inlet needle valve.
+1. Close the chamber outlet needle valve once again, and carefully open the chamber inlet needle valve.
 
-1. Repeat these steps (pressurize to 200 psi and purge) at least 3 times.
+1. Repeat these steps (pressurize to 200 psi and purge) at least 5 times.
 
-1. Open the chamber outlet valves and continue to allow gas to flow through the chamber and out of the outlet for these next few steps.
+1. (Optional) To sinter / dry the feed rod, turn on the laser emission and raise the power until the rod begins to glow, without melting it. Translate the rod through the laser beam to remove any residual moisture. It is recommended to perform another purge cycle on the chamber after this procedure.
 
-1. Next, dry the feed rod. To do so, turn on the laser emission, and raise the power until the rod begins to glow, without melting it. Translate the rod relatively fast (upwards of 100 mm/hr) through the laser beam to remove any residual moisture. ([more info]())
+1. Bring the feed and seed rods to their starting positions.
 
-1. Turn off the laser emission.
+1. Close the chamber outlet needle valve and ball valve, and the chamber will begin pressurizing. Allow the chamber to reach the bottle pressure (usually around 1,000 psi), or the desired pressure, whichever is lower.
 
-1. Bring the feed and seed rods back to their starting positions.
+1. If the desired pressure is higher than the bottle pressure, turn on the compressor by opening the valve to the drive air and slowly increase the drive air pressure (using the regulator attached to the compressor) until the desired pressure is reached. Operate the compressor at a slow rate, such as 2 strokes / second.
 
-1. Close the chamber outlet valves, and the chamber will begin pressurizing. Allow the chamber to reach the bottle pressure (usually around 1,200 psi), or the desired pressure, whichever is lower.
+1. Set the final pressure by using the high-pressure regulator downstream of the compressor. Also, ensure the compressor does not reach a pressure significantly higher than this by controlling either the drive air pressure (using the drive air regulator) or by controlling the pressure limit switch of the compressor.
 
-1. If the desired pressure is higher than the bottle pressure, turn on the compressor until the desired pressure is reached. ([more info]())
+1. Optionally close the inlet or outlet valves, depending on whether or not you want to have a constant inlet to maintain pressure or if you want constant venting (gas flow).
 
 ### If using 80:20 Ar:O$_2$
 
 1. Close all low-pressure valves, including the mass flow controller (using FlowPlot software, set flowrate to `0.0`). ([more info]())
 
-1. Open the gas bottle in room 3232 (gowning room).
+1. Ensure the outlet valves of the chamber are open.
 
-1. Open all valves downstream of the gas bottle, up to the mass flow controller.
+1. Open the inlet ball valve, but leave the inlet needle valve closed.
 
-1. Open all valves downstream of the mass flow controller to the chamber outlet.
+1. Open the gas bottle.
 
-1. Using the FlowPlot software, set gas flowrate to desired value. Gas should begin flowing into the chamber and out of the chamber outlet piping.
+1. Open the valves which either (a) pass through the mass flow controller or (b) bypass the mass flow controller.
 
-1. Close the chamber outlet valves and the chamber will begin pressurizing.
+1. Allow the chamber to reach the bottle pressure (usually around 1,000 psi), or the desired pressure, whichever is lower.
 
-1. Allow the chamber to reach the bottle pressure (usually around 1,200 psi), or the desired pressure, whichever is lower.
+1. If the desired pressure is higher than the bottle pressure, turn on the compressor by opening the valve to the drive air and slowly increase the drive air pressure (using the regulator attached to the compressor) until the desired pressure is reached. Operate the compressor at a slow rate, such as 2 strokes / second.
 
-1. If the desired pressure is higher than the bottle pressure, turn on the compressor until the desired pressure is reached. ([more info]())
+1. Set the final pressure by using the high-pressure regulator downstream of the compressor. Also, ensure the compressor does not reach a pressure significantly higher than this by controlling either the drive air pressure (using the drive air regulator) or by controlling the pressure limit switch of the compressor.
+
+1. Optionally close the inlet or outlet valves, depending on whether or not you want to have a constant inlet to maintain pressure or if you want constant venting (gas flow).
 
 ---
 
 ## Section IV: Setup static gas pressure or gas flow
-**If using static pressure**, close chamber inlet valves and move on to the next section.
+**If using static pressure**, close chamber inlet valves, turn off the compressor (if applicable), and move on to the next section.
 
-**Otherwise, if using gas flow**, leave chamber inlet valves open and refer to the following steps:
+**Otherwise, if using gas flow**, leave chamber inlet valves open and the compressor on, and refer to the following steps:
 
-1. Turn on the compressor and set it to a slow rate. Loosen the pressure limiter just until the limit is reached (a whistle-like noise should sound).
+1. Set the high-pressure regulator downstream of the compressor to your desired pressure.
+
+1.
 
 1. Close the inlet needle valve.
 
