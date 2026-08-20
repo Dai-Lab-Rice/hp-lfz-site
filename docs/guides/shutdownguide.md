@@ -6,6 +6,8 @@
 ## Section I: Power down the furnace
 1. Turn off emission on all lasers, and verify that the output power reads "OFF" in the Laser Controller Software.
 
+1. Turn off the "LASER IN USE" sign.
+
 1. Turn off the translation and rotation.
 
 1. Stop the screen recorder.
@@ -87,7 +89,7 @@
 
 1. Translate the bottom shaft downward until it is inside the inconel adapter. Do not reach the lower limit.
 
-1. Using a Kimwipe, IPA/EtOH, and some small tweezers, clean the inside of the translator.
+1. Using a Kimwipe, IPA/EtOH, and some small tweezers preferably with tip that is not sharp to avoid scratches on the sealing surface, clean the inside of the bottom translator.
 
 1. Using a ball of Kimwipes, IPA/EtOH, and the long tweezers (forceps), clean the inside of the chamber.
 
@@ -95,4 +97,4 @@
 
 1. Place all small hardware in a beaker with some IPA/EtOH, and use the sonicator to clean these.
 
-1. Retract both the top and bottom translator shafts, and slide both translators towards the chamber before leaving.
+1. Slide both translators towards the chamber before leaving.
