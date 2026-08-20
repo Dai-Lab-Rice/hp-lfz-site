@@ -170,6 +170,8 @@
 ---
 ## Section V: Begin growth
 
+1. Ensure all thermocouples are inserted and powered on.
+
 1. Bring the feed and seed rods to their starting positions.
 
 1. Focus and align the camera and pyrometer on the seed rod. ([more info]())
