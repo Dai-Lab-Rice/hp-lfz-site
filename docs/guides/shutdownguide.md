@@ -83,7 +83,9 @@
 
 1. Pull straight up on the translation shaft, to decouple it from the magnet pack. It is important to pull straight up, any sideways force on the translation shaft can cause serious damage to the coupling to the magnet pack.
 
-1. Clean the length of the upper shaft, then push it upward to recouple to the magnet pack. Ensure that it is in the deepest energetic minimum of the magnet, which should be the second "click".
+1. Clean the length of the bottom shaft, then push it upward to recouple to the magnet pack. Ensure that it is in the deepest energetic minimum of the magnet, which should be the second "click".
+
+1. Translate the bottom shaft downward until it is inside the inconel adapter. Do not reach the lower limit.
 
 1. Using a Kimwipe, IPA/EtOH, and some small tweezers, clean the inside of the translator.
 
