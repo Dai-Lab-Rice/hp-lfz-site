@@ -93,8 +93,6 @@
 
 1. Using a ball of Kimwipes, IPA/EtOH, and the long tweezers (forceps), clean the inside of the chamber.
 
-1. Clean the interior and exterior off the shroud pieces and shroud window.
-
 1. Place all small hardware in a beaker with some IPA/EtOH, and use the sonicator to clean these.
 
 1. Slide both translators towards the chamber before leaving.
