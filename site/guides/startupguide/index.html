@@ -190,7 +190,7 @@
 <h2 id="section-i-turning-on-equipment">Section I: Turning on equipment</h2>
 <ol>
 <li>
-<p>Create a new Growth Log in the "<a href="https://drive.google.com/drive/folders/1A3_43n8ItInI4Z7pf4uCt52mfkHWRzl-?usp=drive_link">Growth Logs</a>" folder in the <a href="https://drive.google.com/drive/folders/1-5bD7GNJCqUvJMFQOrpgeaQlDUMaeCdf?usp=drive_link">LOKII Google Drive</a>.    </p>
+<p>Create a new Growth Log in the "Growth Logs" folder in the HP-LFZ Google Drive.   </p>
 </li>
 <li>
 <p>On the front of each of the seven laser units, turn the key clockwise to the "ON" position.
@@ -221,8 +221,7 @@
    <img alt="webcam.png" src="../../img/webcam.png" /></p>
 </li>
 <li>
-<p>On Computer 2, open the mass flow controller software, FlowDDE and FlowPlot (<a href="">more info</a>)
-   <img alt="mfc_software.png" src="../../img/mfc_software.png" /></p>
+<p>On Computer 2, open the mass flow controller software, FlowSuite 2.</p>
 </li>
 </ol>
 <hr />
@@ -291,10 +290,16 @@
 <h3 id="if-using-ar-or-n_2">If using Ar  or N<span class="arithmatex">\(_2\)</span></h3>
 <ol>
 <li>
-<p>Close all low-pressure valves, including the mass flow controller (using FlowPlot software, set flowrate to <code>0.0</code>). (<a href="">more info</a>)</p>
+<p>If you suspect that the gas inlet will blow on the feed rod (this will occur if your feed rod is long), move the feed / seed downwards until the feed is out of the way of the inlet gas port.</p>
+</li>
+<li>
+<p>Close all low-pressure valves, including the mass flow controller (using Bronkhorst MFC software, set flowrate to <code>0.0</code>). (<a href="">more info</a>)</p>
 </li>
 <li>
 <p>Ensure the inlet and outlet valves of the chamber are open.</p>
+</li>
+<li>
+<p>Ensure that the vent valve on the compressor is closed.</p>
 </li>
 <li>
 <p>Open the gas bottle.</p>
@@ -307,32 +312,29 @@
 <p>Starting from the gas bottle, sequentially open the valves which bypass the getter.</p>
 </li>
 <li>
-<p>Using the FlowPlot software, flow gas to vent valve at the flowrate specified below, in order to flush out any oxygen in the low pressure piping. Flow for 5 minutes. (<a href="">more info</a>)</p>
+<p>Using the FlowSuite software, flow gas to vent valve at the flowrate specified below, in order to flush out any oxygen in the low pressure piping. Flow for 5 minutes. (<a href="">more info</a>)</p>
 <ul>
-<li><strong>Ar</strong>: Setpoint = 50% (Flowrate = 5 SLPM)</li>
-<li><strong>N<span class="arithmatex">\(_2\)</span></strong>: Setpoint = 65% (Flowrate = 5 SLPM)</li>
+<li><strong>Ar</strong>: Setpoint = 5.0 SLM (Actual flowrate = 5 SLPM)</li>
+<li><strong>N<span class="arithmatex">\(_2\)</span></strong>: Setpoint = 6.5 SLPM (Actual flowrate = 5 SLPM)</li>
 </ul>
 </li>
 <li>
-<p>Open the valves immediately upstream of the getter, and close those bypassing the getter.</p>
+<p>Open the low-pressure valves immediately upstream of the getter, and then close those bypassing the getter.</p>
 </li>
 <li>
-<p>Open the round inlet valve of the getter.</p>
+<p>Open the blue, round INLET valve (on top) of the getter.</p>
 </li>
 <li>
-<p>SLOWLY crack open the round outlet valve of the getter. The getter may hold a high pressure from previous use.</p>
+<p>SLOWLY crack open the blue, round OUTLET valve (on the bottom) of the getter. The getter may hold a high pressure from previous use. Allow this pressurized gas to partially vent.</p>
 </li>
 <li>
 <p>Once the pressure in the getter has decreased, and the flow is less violent, close the vent valve. Gas should begin flowing towards the compressor / chamber.</p>
 </li>
 <li>
-<p>Ensure the vent valve of the compressor is closed.</p>
-</li>
-<li>
 <p>Turn on the compressor at a very slow rate in order to flush out any residual oxygen. (<a href="">more info</a>)</p>
 </li>
 <li>
-<p>Close the chamber outlet needle valve and the chamber will begin pressurizing. Pressurize up to 200 psi, then close the chamber inlet needle valve, leaving the ball valve open.</p>
+<p>Close the chamber outlet needle valve and the chamber will begin pressurizing. Pressurize up to 200 psi (or a pressure of your choice), then close the chamber inlet needle valve, leaving the ball valve open.</p>
 </li>
 <li>
 <p>Purge the chamber by slowly opening the outlet needle valve. Let the pressure drop to just above zero, but do not allow the pressure to reach exactly zero, because air may backflow into the chamber.</p>
@@ -341,13 +343,10 @@
 <p>Close the chamber outlet needle valve once again, and carefully open the chamber inlet needle valve.</p>
 </li>
 <li>
-<p>Repeat these steps (pressurize to 200 psi and purge) at least 5 times.</p>
+<p>Repeat these steps (e.g., pressurize to 200 psi and purge) at least 5 times.</p>
 </li>
 <li>
 <p>(Optional) To sinter / dry the feed rod, turn on the laser emission and raise the power until the rod begins to glow, without melting it. Translate the rod through the laser beam to remove any residual moisture. It is recommended to perform another purge cycle on the chamber after this procedure.</p>
-</li>
-<li>
-<p>Bring the feed and seed rods to their starting positions.</p>
 </li>
 <li>
 <p>Close the chamber outlet needle valve and ball valve, and the chamber will begin pressurizing. Allow the chamber to reach the bottle pressure (usually around 1,000 psi), or the desired pressure, whichever is lower.</p>
@@ -365,7 +364,10 @@
 <h3 id="if-using-8020-aro_2">If using 80:20 Ar:O<span class="arithmatex">\(_2\)</span></h3>
 <ol>
 <li>
-<p>Close all low-pressure valves, including the mass flow controller (using FlowPlot software, set flowrate to <code>0.0</code>). (<a href="">more info</a>)</p>
+<p>If you suspect that the gas inlet will blow on the feed rod (this will occur if your feed rod is long), move the feed / seed downwards until the feed is out of the way of the inlet gas port.</p>
+</li>
+<li>
+<p>Close all low-pressure valves, including the mass flow controller (using FlowSuite software, set flowrate to <code>0.0</code>). (<a href="">more info</a>)</p>
 </li>
 <li>
 <p>Ensure the outlet valves of the chamber are open.</p>
