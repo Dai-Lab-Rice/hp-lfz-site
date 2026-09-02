@@ -103,7 +103,7 @@
 
 1. Once the pressure in the getter has decreased, and the flow is less violent, close the vent valve. Gas should begin flowing towards the compressor / chamber.
 
-1. Turn on the compressor at a very slow rate in order to flush out any residual oxygen. ([more info]())
+1. Turn on the compressor at a very slow rate in order to flush out any residual oxygen. You can turn off the compressor after a few minutes, once it has been flushed out sufficiently ([more info]()).
 
 1. Close the chamber outlet needle valve and the chamber will begin pressurizing. Pressurize up to 200 psi (or a pressure of your choice), then close the chamber inlet needle valve, leaving the ball valve open.
 
